@@ -9,7 +9,7 @@ sites:
       - 200
       - 401
   - name: Banabyte CDN
-    url: https://cdn.banabyte.com
+    url: https://postal.banabyte.com
     expectedStatusCodes:
       - 200
       - 401
@@ -24,7 +24,7 @@ sites:
       - 200
       - 401
   - name: Status Page
-    url: https://status.banabyte.com
+    url: https://status.banabyte.com.au
     expectedStatusCodes:
       - 200
       - 401      
@@ -36,17 +36,7 @@ sites:
 
   # Banabyte Network Servers
   - name: Server 1
-    url: https://co-us01.banabyte.com:2021
-    expectedStatusCodes:
-      - 200
-      - 401
-  - name: Server 2
-    url: https://co-us02.banabyte.com:2031
-    expectedStatusCodes:
-      - 200
-      - 401
-  - name: Server 3
-    url: https://co-us03.banabyte.com:2041
+    url: https://sy-au01.banabyte.com:2021
     expectedStatusCodes:
       - 200
       - 401
@@ -100,7 +90,7 @@ sites:
       - 401
 
 status-website:
-  cname: status.banabyte.com
+  cname: status.banabyte.com.au
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   name: Banabyte Backend Status Page
   introTitle: "Something isn't working?"
@@ -108,13 +98,8 @@ status-website:
   theme: dark
 
 commitMessages:
-  commitAuthorName: "ZEROPOINTBRUH"
-  commitAuthorEmail: "wegj1@hotmail.com"
+  commitAuthorName: "Arrow"
+  commitAuthorEmail: "jbutel@banabyte.com"
 
 assignees:
-  - ZEROPOINTBRUH
-  - DamienVesper
   - 0Arrow0
-  - ADRetro
-  - AuroraRpg
-  - jfarns112
